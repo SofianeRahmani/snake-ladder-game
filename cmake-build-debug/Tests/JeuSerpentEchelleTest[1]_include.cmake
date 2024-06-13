@@ -1,0 +1,5 @@
+if(EXISTS "C:/temp/CodeTP1/cmake-build-debug/Tests/JeuSerpentEchelleTest[1]_tests.cmake")
+  include("C:/temp/CodeTP1/cmake-build-debug/Tests/JeuSerpentEchelleTest[1]_tests.cmake")
+else()
+  add_test(JeuSerpentEchelleTest_NOT_BUILT JeuSerpentEchelleTest_NOT_BUILT)
+endif()

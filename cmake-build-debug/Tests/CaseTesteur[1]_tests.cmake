@@ -1,0 +1,7 @@
+add_test([=[CaseTest.ConstructorTest]=]  C:/temp/CodeTP1/cmake-build-debug/Tests/CaseTesteur.exe [==[--gtest_filter=CaseTest.ConstructorTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[CaseTest.ConstructorTest]=]  PROPERTIES WORKING_DIRECTORY C:/temp/CodeTP1/cmake-build-debug/Tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[CaseTest.DestructorTest]=]  C:/temp/CodeTP1/cmake-build-debug/Tests/CaseTesteur.exe [==[--gtest_filter=CaseTest.DestructorTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[CaseTest.DestructorTest]=]  PROPERTIES WORKING_DIRECTORY C:/temp/CodeTP1/cmake-build-debug/Tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[CaseTest.OutputOperatorTest]=]  C:/temp/CodeTP1/cmake-build-debug/Tests/CaseTesteur.exe [==[--gtest_filter=CaseTest.OutputOperatorTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[CaseTest.OutputOperatorTest]=]  PROPERTIES WORKING_DIRECTORY C:/temp/CodeTP1/cmake-build-debug/Tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  CaseTesteur_TESTS CaseTest.ConstructorTest CaseTest.DestructorTest CaseTest.OutputOperatorTest)

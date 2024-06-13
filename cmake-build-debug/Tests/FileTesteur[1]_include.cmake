@@ -1,0 +1,5 @@
+if(EXISTS "C:/temp/CodeTP1/cmake-build-debug/Tests/FileTesteur[1]_tests.cmake")
+  include("C:/temp/CodeTP1/cmake-build-debug/Tests/FileTesteur[1]_tests.cmake")
+else()
+  add_test(FileTesteur_NOT_BUILT FileTesteur_NOT_BUILT)
+endif()

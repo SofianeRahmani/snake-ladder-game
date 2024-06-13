@@ -1,0 +1,1 @@
+-I"C:/temp/CodeTP1/build/_deps/googletest-src/googlemock/include" -I"C:/temp/CodeTP1/build/_deps/googletest-src/googlemock" -isystem "C:/temp/CodeTP1/build/_deps/googletest-src/googletest/include" -isystem "C:/temp/CodeTP1/build/_deps/googletest-src/googletest"

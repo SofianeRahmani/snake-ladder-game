@@ -1,0 +1,5 @@
+if(EXISTS "C:/temp/CodeTP1/build/Tests/ListeDeCasesTesteur[1]_tests.cmake")
+  include("C:/temp/CodeTP1/build/Tests/ListeDeCasesTesteur[1]_tests.cmake")
+else()
+  add_test(ListeDeCasesTesteur_NOT_BUILT ListeDeCasesTesteur_NOT_BUILT)
+endif()
